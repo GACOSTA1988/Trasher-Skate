@@ -13,15 +13,21 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-image: url('https://cdn.shopify.com/s/files/1/0658/2889/t/10/assets/slideshow_2.jpg?0');
+  background-repeat: repeat;
+height: 1000vh;
+background-attachment: fixed;
+background-position: center;
+/* background-repeat: no-repeat; */
+background-size: cover;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
