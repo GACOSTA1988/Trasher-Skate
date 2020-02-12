@@ -8,8 +8,9 @@ import React from 'react';
 
 function ShaneAdd(props) {
   var shaneAddStyles = {
-    marginBottom: '90%',
+    // marginBottom: '90%',
     // padding: '.25%',
+    margin: '5px',
     border:'15px solid black',
     width: '80%',
    };
