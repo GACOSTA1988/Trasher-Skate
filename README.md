@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[navbar documention](https://react-bootstrap.github.io/components/navbar/)
+
+[goole font loader](https://www.npmjs.com/package/react-google-font-loader)
+
+[YOUTUBE EMBED ](https://github.com/tjallingt/react-youtube)
 ## Available Scripts
 
 In the project directory, you can run:
