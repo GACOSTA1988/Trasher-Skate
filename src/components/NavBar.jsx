@@ -16,7 +16,7 @@ function NavBar(props) {
   return (
     <div style={navBarAddStyles}>
     <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
-    <Navbar.Brand href="#home">⚡️Trasher⚡️</Navbar.Brand>
+    <Navbar.Brand href="#">⚡️Trasher⚡️</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -30,7 +30,7 @@ function NavBar(props) {
 
       <Nav className="mr-auto">
         <NavDropdown title="SHOP" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">BOARDS</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1"><Link to="/boards">BOARDS</Link></NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">CLOTHES</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">VIDEO TAPES</NavDropdown.Item>
         </NavDropdown>

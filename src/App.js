@@ -9,6 +9,9 @@ import GoogleFontLoader from 'react-google-font-loader';
 import YouTube from 'react-youtube';
 import Video from './components/Video.jsx'
 import { Switch, Route } from 'react-router-dom';
+import BoardShop from './components/BoardShop.jsx';
+import Home from './components/Home';
+
 
 function App() {
   return (
@@ -16,8 +19,10 @@ function App() {
     <ShaneAdd/>
     <NavBar/>
     <Switch>
-     <Route exact path='/video' component={Video} />
-     </Switch>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/video' component={Video} />
+      <Route exact path='/boards' component={BoardShop} />
+    </Switch>
     </div>
 
   );
