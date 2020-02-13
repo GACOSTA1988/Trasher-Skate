@@ -13,7 +13,7 @@ class HomeVideo extends React.Component {
     };
 
     var playerStyle = {
-        marginTop: '10px',
+        // marginTop: '10px',
         marginBottom: '10px',
         textAlign: 'right',
 
