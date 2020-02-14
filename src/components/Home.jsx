@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeVideo from './HomeVideo'
 import JunkDrawer from './JunkDrawer'
+import RightContent from './RightContent'
 
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
 const homeStyle = {
   width: '80%',
   margin: '0 auto',
-  paddingTop: '2.5px',
+  paddingTop: '4px',
   display: 'grid',
   gridTemplateColumns: '1fr 1fr',
 }
@@ -16,7 +17,7 @@ const homeStyle = {
   return (
     <div style={homeStyle}>
       <JunkDrawer/>
-      <HomeVideo/>
+      <RightContent/>
     </div>
   )
 }
